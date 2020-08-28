@@ -1,11 +1,11 @@
 ---
-slug: "/relationships/my-first-post"
+slug: "/relationships/2020/08/my-second-post"
 date: "2019-05-04"
-title: "My first blog post"
+title: "My second blog post"
 category: relationships
 ---
 
-# This is a relationship post
+# This is another relationship post
 
 1. find someone
 2. get married
