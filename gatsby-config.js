@@ -45,6 +45,9 @@ module.exports = {
             family: `Satisfy`,
           },
           {
+            family: `Zilla Slab`,
+          },
+          {
             family: `Roboto`,
             variants: [`400`, `700`],
             subsets: [`latin`]
