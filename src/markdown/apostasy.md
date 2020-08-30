@@ -3,6 +3,7 @@ slug: "/my-mormon-apostasy"
 date: "2007-12-13"
 title: "Why I Left the Mormon Church"
 category: biography
+summary: "I don't believe in god anymore. This is why."
 ---
 
 People who know me at all know that I do not believe in god. In fact, I would label myself an antitheist. I haven’t been able to shake my disdain for theism from my sleeve. Some have wondered to me how I went from Book of Mormon totin’ Mormon missionary to positive atheism and antitheism. What tipped me over the edge?
