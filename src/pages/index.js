@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/layout/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
@@ -14,6 +14,10 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
+    <ul>
+      <Link to='/relationships/2020/08/my-first-post'>First post</Link>
+      <Link to='/my-mormon-apostasy'>Apostasy</Link>
+    </ul>
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>

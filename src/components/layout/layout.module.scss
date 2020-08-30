@@ -620,3 +620,11 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.contentWrapper {
+  max-width: 960px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-areas: "content sidebar";
+  grid-template-columns: auto 320px;
+}
