@@ -24,8 +24,8 @@ export default function Template({
         <div className="blog-post-container">
             <div className="blog-post">
                 <h1 className={styles.title}>{frontmatter.title}</h1>
-                <FontAwesomeIcon icon={['far', 'calendar-day']} className={''} /><h2 className={styles.date}>{frontmatter.date}</h2>
                 <Img fluid={featuredImgFluid} />
+                <div className={styles.dateWrapper}><FontAwesomeIcon icon={['far', 'calendar-day']} className={styles.dateIcon} /><h2 className={styles.date}>{frontmatter.date}</h2></div>
                 <div
                 className={styles.blogPostContent}
                 dangerouslySetInnerHTML={{ __html: html }}

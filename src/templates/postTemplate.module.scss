@@ -7,9 +7,23 @@
     text-align: center;
 }
 
-.date {
-    font-family: $serifFont;
-    font-size: 1.2rem;
+.dateWrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0 18px;
+    color: $primaryColor;
+    align-items: center;
+
+    .dateIcon {
+        margin-right: 8px;
+        font-size: 1.4rem;
+    }
+
+    .date {
+        font-family: $serifFont;
+        font-size: 1.2rem;
+        margin: 0;
+    }
 }
 
 .blogPostContent {
