@@ -33,24 +33,16 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Pacifico`,
+            family: `Fugaz One`, // Fugaz One is a sans serif with very geometric features and gestural characteristics. Italic inclination.
           },
           {
-            family: `Fugaz One`,
+            family: `Luckiest Guy`, // Luckiest Guy is a friendly heavyweight sans serif typeface inspired by 1950s advertisements with custom hand lettering.
           },
           {
-            family: `Luckiest Guy`,
+            family: `Satisfy`, // Brush script with a little pizazz.
           },
           {
-            family: `Satisfy`,
-          },
-          {
-            family: `Zilla Slab`,
-          },
-          {
-            family: `Roboto`,
-            variants: [`400`, `700`],
-            subsets: [`latin`]
+            family: `Zilla Slab`, // A contemporary slab serif, based on Typotheque's Tesla, it is constructed with smooth curves and true italics
           },
         ],
       },
@@ -62,7 +54,27 @@ module.exports = {
         path: `${__dirname}/src/markdown`,
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/pages/gratitude`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            }
+          }
+        ]
+      }
+    },
+    `gatsby-plugin-fontawesome-css`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

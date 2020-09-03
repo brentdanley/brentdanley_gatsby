@@ -2,22 +2,21 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+
+import RandomQuote from '../components/quotes/randomQuote'
+import quoteStyles from './homepageQuoteStyles.module.scss'
 
 const IndexPage = () => {
   return (
    <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <RandomQuote styles={quoteStyles} />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
     </div>
     <Link to="/category/biography/">Biography Posts</Link> <br />
     <Link to="/category/relationships/">Relationships Posts</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <Link to="/gratitude/">Gratitude Journal</Link>
   </Layout>
   )
 }

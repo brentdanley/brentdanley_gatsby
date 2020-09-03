@@ -1,5 +1,7 @@
+@import '../../styles/global';
+
 html {
-  font-family: "Luckiest Guy", Helvetica, sans-serif;
+  font-family: $allCaps;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -200,7 +202,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: "Luckiest Guy", Helvetica, sans-serif;
+  font-family: $allCaps;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -623,8 +625,8 @@ pre tt:after {
 
 .contentWrapper {
   max-width: 960px;
-  margin: 50px auto;
+  margin: 10px auto 50px;
   display: grid;
-  grid-template-areas: "content sidebar";
-  grid-template-columns: auto 320px;
+  grid-template-areas: "content";
+  grid-template-columns: auto;
 }

@@ -1,0 +1,15 @@
+@import '../../styles/global';
+
+footer {
+    font-family: $serifFont;
+    width: 100vw;
+
+    .wrapper {
+        max-width: 960px;
+        margin: 15px auto;
+    }
+}
+
+.copyright {
+    color: $primaryColor;
+}

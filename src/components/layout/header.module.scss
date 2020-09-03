@@ -3,4 +3,23 @@
 .header {
     background: rgb(52, 137, 235);
     margin-bottom: 1.45rem;
+    
+    .content {
+        max-width: 960px;
+        margin: 0 auto;
+        height: 90px;
+        display: grid;
+        grid-template-areas: "title social";
+        align-items: center;
+    }
+}
+
+.socialWrapper {
+    justify-self: end;
+    display: flex;
+
+    .socialIcon {
+        color: white;
+        margin: 7px;
+    }
 }

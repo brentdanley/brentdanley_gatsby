@@ -1,0 +1,20 @@
+@import '../../styles/global';
+
+.cardWrapper {
+    padding: 15px;
+    border: 2px solid $primaryColor;
+    border-radius: 7px;
+    background-color: #eaf5ff;
+    margin: 7px;
+}
+
+.date {
+    font-family: $boldHeadings;
+    font-size: 1.0rem;
+}
+
+.content {
+    font-family: $handWriting;
+    font-size: 0.8rem;
+    line-height: 1.0rem;
+}

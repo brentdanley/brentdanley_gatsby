@@ -3,9 +3,9 @@ slug: "/my-mormon-apostasy"
 date: "2007-12-13"
 title: "Why I Left the Mormon Church"
 category: biography
-summary: "I don't believe in god anymore. This is why."
+summary: In 2004, when I was 30 years old, I finally left the Mormon church and stopped believing in god.
+featuredImage: ./a-tough-sell.jpg
 ---
-
 People who know me at all know that I do not believe in god. In fact, I would label myself an antitheist. I haven’t been able to shake my disdain for theism from my sleeve. Some have wondered to me how I went from Book of Mormon totin’ Mormon missionary to positive atheism and antitheism. What tipped me over the edge?
 
 The house of cards that was my strong Christian belief fell near the end of my bachelor of science pursuit. It became impossible to continue to reconcile what I’d learned in geology, physics, statistics, philosophy, logic, psychology, and biology with what I’d known my entire life. And what a rush it’s been! The world is so much clearer now; but people are so stupider.
@@ -18,9 +18,9 @@ Statistics taught me to throw out the fringe data of a sample. All of a sudden t
 
 Biology, of course, taught me the undeniable fact of evolution and contradicted the creation myth.
 
-[North Pacific Basin image]
+![Topographical map of the Pacific Basin](./pacific_basin_topographical.jpg)
 
-The geology course I took had a profound impact and is probably the greatest contributor to my apostasy. The textbook we used has a picture of the floor of the Pacific Ocean. The Hawaiian Island chain extends all the way to Alaska. The process that created those ocean mountains is too complex for this comment. Suffice it to say, it didn’t happen in less than six thousand years. The earth, I learned, is a very very old planet.
+The geology course I took had a profound impact and is probably the greatest contributor to my apostasy. The textbook we used has a picture of the floor of the Pacific Ocean. The Hawaiian Island chain extends all the way to Alaska. The process that created those ocean mountains is too complex for this post. Suffice it to say, it didn’t happen in less than six thousand years. The earth, I learned, is a very very old planet.
 
 In philosophy I learned how complex hypothetical ethical questions can be. I realized how inadequate religions and their ancient texts are at offering any guidance but for the most basic moral canundrums. I also realized that there is no right and wrong, but an continuum where morality is relative.
 

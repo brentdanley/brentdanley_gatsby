@@ -4,6 +4,8 @@ import Layout from "../../../components/layout/layout"
 import SEO from "../../../components/seo"
 import PostLink from "../../../components/post-link"
 
+import styles from '../../category/category.module.scss'
+
 const BioPage = ({
   data: {
     allMarkdownRemark: { edges },
@@ -16,8 +18,12 @@ const BioPage = ({
     return (
    <Layout>
     <SEO title="Category - Biography" />
-    <h1>Biography</h1>
-    {Posts}
+    <h1 className={styles.pageHeading}>Allow me to introduce myself</h1>
+    <div className={styles.headingCopy}>
+      <p>In these posts I'll attempt to introduce myself by answering questions I'm frequently asked.</p>
+      <p>If there's something you're curious about that's not answered here, send an email to <a href="mailto:brentdanley@gmail.com" title="Brent's email address">brentdanley@gmail.com</a>.</p>
+    </div>
+    <div className={styles.postsWrapper}>{Posts}</div>
   </Layout>
     )
 }
@@ -37,6 +43,13 @@ export const pageQuery = graphql`
             slug
             title
             summary
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }

@@ -1,0 +1,29 @@
+@import '../styles/global';
+
+.quoteWrapper {
+    display: grid;
+    grid-template-areas: "iconLeft quote iconRight";
+    grid-template-columns: min-content 1fr min-content;
+
+    .iconLeft {
+        color: $primaryColor;
+        margin-right: 7px;
+    }
+
+    .container {
+        font-family: $handWriting;
+
+        .author {
+            text-align: right;
+        }
+
+        .quotation {
+            
+        }
+    }
+
+    .iconRight {
+        color: $primaryColor;
+        margin-left: 7px;
+    }
+}

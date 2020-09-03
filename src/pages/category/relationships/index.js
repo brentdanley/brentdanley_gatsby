@@ -4,6 +4,8 @@ import Layout from "../../../components/layout/layout"
 import SEO from "../../../components/seo"
 import PostLink from "../../../components/post-link"
 
+import styles from '../../category/category.module.scss'
+
 const RelationshipsPage = ({
   data: {
     allMarkdownRemark: { edges },
@@ -17,7 +19,7 @@ const RelationshipsPage = ({
    <Layout>
     <SEO title="Category - Relationships" />
     <h1>Relationships</h1>
-    {Posts}
+    <div className={styles.postsWrapper}>{Posts}</div>
   </Layout>
     )
 }
