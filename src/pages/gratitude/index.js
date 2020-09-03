@@ -12,7 +12,6 @@ const GratitudePage = ({
   },
 }) => {
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <GratitudePost key={edge.node.id} post={edge.node} />)
 
     return (
