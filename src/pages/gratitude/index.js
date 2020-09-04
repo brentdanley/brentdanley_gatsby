@@ -2,7 +2,6 @@ import React from "react"
 
 import Layout from "../../components/layout/layout"
 import SEO from "../../components/seo"
-import GratitudePost from "./post-link"
 
 import styles from '../category/category.module.scss'
 
@@ -44,3 +43,12 @@ export const pageQuery = graphql`
     }
   }
 `
+
+const GratitudePost = ({ post }) => {
+  return (
+    <div className={styles.cardWrapper}>
+      <div className={styles.date}>{post.frontmatter.date}</div>
+      <div className={styles.content} dangerouslySetInnerHTML={{ __html: post.html }} />
+    </div>
+  )
+}
