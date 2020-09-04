@@ -28,7 +28,7 @@ const GratitudePage = ({
 
 export default GratitudePage
 
-export const pageQuery = graphql`
+export const query = graphql`
   query {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, 
       filter: {frontmatter: {category: {eq: "gratitude"}}}) {
