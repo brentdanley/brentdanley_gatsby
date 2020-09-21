@@ -5,6 +5,12 @@ module.exports = {
     author: `@brentdanley`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-express',
+      options: {
+        output: 'config/gatsby-express.json',
+      }
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
