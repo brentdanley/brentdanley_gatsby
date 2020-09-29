@@ -1,5 +1,8 @@
 import React from 'react'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '../../utils/fontawesome'
+
 const SocialIcons = (props) => {
     const socialAccounts = [
         {
@@ -26,7 +29,7 @@ const SocialIcons = (props) => {
     return (
         <div className={props.styles.socialWrapper}>
             {socialAccounts.map(account => (
-                <a href={account.link} title={`${account.name} for @brentdanley`} target="_blank" rel="noreferrer">Icon</a>
+                <a href={account.link} title={`${account.name} for @brentdanley`} target="_blank" rel="noreferrer"><FontAwesomeIcon className={props.styles.socialIcon} icon={account.icon} /></a>
             ))}
         </div>
     )
