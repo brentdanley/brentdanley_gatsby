@@ -3,9 +3,6 @@ import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../utils/fontawesome'
-
 import Layout from '../components/layout/layout'
 
 import styles from './postTemplate.module.scss'
@@ -25,7 +22,7 @@ export default function Template({
             <div className="blog-post">
                 <h1 className={styles.title}>{frontmatter.title}</h1>
                 <Img fluid={featuredImgFluid} />
-                <div className={styles.dateWrapper}><FontAwesomeIcon icon={['far', 'calendar-day']} className={styles.dateIcon} /><h2 className={styles.date}>{frontmatter.date}</h2></div>
+                <div className={styles.dateWrapper}>Icon<h2 className={styles.date}>{frontmatter.date}</h2></div>
                 <div
                 className={styles.blogPostContent}
                 dangerouslySetInnerHTML={{ __html: html }}
