@@ -24,6 +24,11 @@ const SocialIcons = (props) => {
             name: "YouTube",
             link: "https://www.youtube.com/c/BrentDanley/videos",
             icon: ['fab', 'youtube'],
+        },,
+        {
+            name: "Flickr",
+            link: "https://www.flickr.com/photos/brentdanley/",
+            icon: ['fab', 'flickr'],
         },
     ]
     return (
