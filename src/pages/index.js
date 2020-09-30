@@ -10,7 +10,7 @@ import quoteStyles from './homepageQuoteStyles.module.scss'
 const IndexPage = () => {
   return (
    <Layout>
-    <SEO title="Home" />
+    <SEO title="Brent Danley" />
     <RandomQuote styles={quoteStyles} />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
