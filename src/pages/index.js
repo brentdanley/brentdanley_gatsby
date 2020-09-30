@@ -15,7 +15,6 @@ const IndexPage = () => {
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
     <Link to="/category/biography/">Biography Posts</Link> <br />
-    <Link to="/category/relationships/">Relationships Posts</Link> <br />
     <Link to="/gratitude/">Gratitude Journal</Link>
   </Layout>
   )
