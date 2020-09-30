@@ -4,6 +4,7 @@ import Layout from "../../components/layout/layout"
 import SEO from "../../components/seo"
 
 import styles from '../category/category.module.scss'
+import postStyles from './post-link.module.scss'
 
 const GratitudePage = ({
   data: {
@@ -46,9 +47,9 @@ export const pageQuery = graphql`
 
 const GratitudePost = ({ post }) => {
   return (
-    <div className={styles.cardWrapper}>
-      <div className={styles.date}>{post.frontmatter.date}</div>
-      <div className={styles.content} dangerouslySetInnerHTML={{ __html: post.html }} />
+    <div className={postStyles.cardWrapper}>
+      <div className={postStyles.date}>{post.frontmatter.date}</div>
+      <div className={postStyles.content} dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
   )
 }
