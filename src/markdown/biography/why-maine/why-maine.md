@@ -7,3 +7,6 @@ featuredImage: ./family_phl_2007.jpg
 summary: Kirsten and I moved our family to Maine in the summer of 2007. 
 ---
 We moved to Maine because it's awesome!
+
+![Where I've been in the US](./where-ive-been-in-us.png)
+
