@@ -5,6 +5,7 @@ title: "Why I Left the Mormon Church"
 category: biography
 summary: In 2004, when I was 30 years old, I finally left the Mormon church and stopped believing in god.
 featuredImage: ./a-tough-sell.jpg
+status: draft
 ---
 People who know me at all know that I do not believe in god. In fact, I would label myself an antitheist. I haven’t been able to shake my disdain for theism from my sleeve. Some have wondered to me how I went from Book of Mormon totin’ Mormon missionary to positive atheism and antitheism. What tipped me over the edge?
 
