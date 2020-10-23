@@ -33,7 +33,7 @@ export default BioPage
 export const pageQuery = graphql`
   query {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }, 
-      filter: {frontmatter: {category: {eq: "biography"}}}) {
+      filter: {frontmatter: {category: {eq: "biography"}, status: {eq: "published"}}}) {
       edges {
         node {
           id
