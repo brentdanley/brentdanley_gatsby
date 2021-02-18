@@ -35,25 +35,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Fugaz One`, // Fugaz One is a sans serif with very geometric features and gestural characteristics. Italic inclination.
-          },
-          {
-            family: `Luckiest Guy`, // Luckiest Guy is a friendly heavyweight sans serif typeface inspired by 1950s advertisements with custom hand lettering.
-          },
-          {
-            family: `Satisfy`, // Brush script with a little pizazz.
-          },
-          {
-            family: `Zilla Slab`, // A contemporary slab serif, based on Typotheque's Tesla, it is constructed with smooth curves and true italics
-          },
-        ],
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
