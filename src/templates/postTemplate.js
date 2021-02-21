@@ -23,8 +23,8 @@ export default function Template({
         <SEO title={frontmatter.title} />
         <div className="blog-post-container">
             <div className="blog-post">
-                <h1 className={styles.title}>{frontmatter.title}</h1>
                 <Img fluid={featuredImgFluid} />
+                <h1 className={styles.title}>{frontmatter.title}</h1>
                 <div className={styles.dateWrapper}><FontAwesomeIcon icon='calendar-alt' className={styles.dateIcon} /><h2 className={styles.date}>{frontmatter.date}</h2></div>
                 <div
                 className={styles.blogPostContent}

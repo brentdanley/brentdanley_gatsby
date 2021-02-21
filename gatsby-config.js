@@ -56,8 +56,42 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 800,
+              disableBgImageOnAlpha: true,
+              wrapperStyle: 'width:70%;max-width:800px;margin:0 auto;',
+              showCaptions: true,
             }
-          }
+          },
+          {
+            resolve: `gatsby-remark-image-attributes`,
+            options: {
+  
+              // ?Boolean=true
+              //   If true (the default), all CSS
+              //   property names will be recognized
+              //   as styleAttribute.
+              styleAttributes: true,
+  
+              // ?Boolean=false
+              //   If true, all attributes that
+              //   aren't styleAttributes, will be
+              //   added as data-* attributes to the
+              //   image.
+              dataAttributes: false
+            }
+          },
+          {
+            resolve: `gatsby-remark-embedder`,
+            options: {
+              customTransformers: [
+                // Your custom transformers
+              ],
+              services: {
+                // The service-specific options by the name of the service
+              },
+            },
+          },
+          `gatsby-plugin-twitter`,
+          `gatsby-plugin-instagram-embed`,
         ]
       }
     },

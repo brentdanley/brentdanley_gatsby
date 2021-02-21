@@ -5,6 +5,8 @@
     font-family: "Fugaz One";
     font-size: 2.2rem;
     text-align: center;
+    text-shadow: 3px 3px 3px #aaa;
+    margin: 25px auto;
 }
 
 .dateWrapper {
@@ -17,6 +19,7 @@
     .dateIcon {
         margin-right: 8px;
         font-size: 1.4rem;
+        color: $secondaryColor;
     }
 
     .date {
@@ -30,4 +33,24 @@
     font-family: $serifFont;
     font-size: 1.4rem;
     line-height: 1.6em;
+
+    figure {
+        padding: 10px;
+        background-color: rgb(233, 233, 233);
+    }
+
+    figcaption {
+        font-size: 14px;
+        font-style: italic;
+        color: rgb(88, 88, 88);
+        line-height: 18px;
+        margin-top: 8px;
+    }
+}
+
+.twitter-tweet {
+    background-color: red;
+    max-width: 70%;
+    margin: 10px auto;
+    padding: 15px;
 }

@@ -1,0 +1,15 @@
+.twitter-tweet {
+    max-width: 70%;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+.gatsby-resp-image-figcaption {
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(88, 88, 88);
+}
+
+.instagram-media {
+    margin: 0 auto !important;
+}
