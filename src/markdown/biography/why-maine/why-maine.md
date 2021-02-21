@@ -9,4 +9,4 @@ status: published
 ---
 June 13, 2007
 
-![I've visited 49 states, and lived in 12 of them!](./where-ive-been-in-us.png#margin=0 auto;)
+![I've visited 49 US states, and lived in 12 of them!](./where-ive-been-in-us.png#margin=0 auto;)
