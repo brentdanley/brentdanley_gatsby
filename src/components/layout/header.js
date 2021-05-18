@@ -5,16 +5,16 @@ import SocialIcons from './social-icons'
 
 import styles from './header.module.scss'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle  }) => {
+
+  return (
+    <>
+    <div className={styles.headerSpacer}>&nbsp;</div>
   <header className={styles.header}>
     <div className={styles.content}>
-      <h1 style={{ margin: 0, fontFamily: `Fugaz One` }}>
+      <h1>
         <Link
           to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
         >
           {siteTitle}
         </Link>
@@ -22,7 +22,8 @@ const Header = ({ siteTitle }) => (
       <SocialIcons styles={styles} />
     </div>
   </header>
-)
+  </>
+)}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

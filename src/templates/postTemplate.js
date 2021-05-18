@@ -17,9 +17,10 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
 
   const featuredImgFluid = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.fluid : ''
+  const linkTo = frontmatter.category ? `/category/${frontmatter.category}` : '/'
 
   return (
-      <Layout>
+      <Layout pageTitle={frontmatter.title}>
         <SEO title={frontmatter.title} />
         <div className="blog-post-container">
             <div className="blog-post">
@@ -31,7 +32,7 @@ export default function Template({
                 dangerouslySetInnerHTML={{ __html: html }}
                 />
             </div>
-            <Link to={`/category/${frontmatter.category}`}>More {frontmatter.category} posts</Link>
+            <Link to={linkTo}>More {frontmatter.category} posts</Link>
         </div>
     </Layout>
   )

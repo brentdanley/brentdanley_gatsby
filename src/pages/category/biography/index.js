@@ -16,7 +16,7 @@ const BioPage = ({
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
     return (
-   <Layout>
+   <Layout pageTitle="Biography">
     <SEO title="Category - Biography" />
     <h1 className={styles.pageHeading}>Allow me to introduce myself</h1>
     <div className={styles.headingCopy}>

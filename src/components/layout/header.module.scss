@@ -1,16 +1,48 @@
 // Sass file for header.js
 
 .header {
+    position: fixed;
+    top: 0;
     background: rgb(52, 137, 235);
     margin-bottom: 1.45rem;
+    width: 100%;
+    z-index: 9999;
+    margin: 0;
+    padding: 12px 2%;
+
+    
     
     .content {
         max-width: 960px;
         margin: 0 auto;
-        height: 90px;
-        display: grid;
-        grid-template-areas: "title social";
+        display: flex;
+        justify-content: space-between;
         align-items: center;
+
+        h1 {
+            font-family: "Fugaz One", Helvetica, sans-serif;
+            margin: 0;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 620px) {
+
+        .content {
+            justify-content: center;
+
+            h1 {
+                font-size: 16px;
+            }
+        }
+
+        .socialWrapper {
+            display: none;
+        }
     }
 }
 
@@ -22,4 +54,8 @@
         color: white;
         margin: 7px;
     }
+}
+
+.headerSpacer {
+    height: 90px;
 }
